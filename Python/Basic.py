@@ -83,3 +83,18 @@ text = " Hello World "
 print(text)
 print(text.strip())
 print(text.lower())
+
+# DefineFunction
+def greet(name):
+    return "Hello " + name
+
+print(greet("kannan"))
+
+# Lambda Functions
+squ= lambda x: x * x
+print(squ(5))
+
+# Modules and import
+
+import math
+print(math.sqrt(16))
